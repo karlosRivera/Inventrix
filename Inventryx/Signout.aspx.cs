@@ -1,0 +1,26 @@
+//Developed By : Tridip Bhattacharjee
+
+using System;
+using System.Web.Security;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class Signout : BasePage 
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!IsPostBack)
+        {
+            Session["ProfileInfo"]=null;
+            Session["RightsInfo"] = null;
+            FormsAuthentication.SignOut();
+            Response.Redirect(Request.UrlReferrer.ToString());
+        }
+    }
+}

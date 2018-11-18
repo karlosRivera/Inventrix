@@ -1,0 +1,86 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+<%@ Register Assembly="SpacerControl" Namespace="PeterBlum.SpacerControl" TagPrefix="Spc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title>Inventryx</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link href="Includes/mysite.css" rel="stylesheet" type="text/css" />
+<style type="text/css">.PagerContainerTable { BORDER-RIGHT: #333333 0px solid; BORDER-TOP: #333333 0px solid; BORDER-LEFT: #333333 0px solid; COLOR: #d1d1e1; BORDER-BOTTOM: #333333 0px solid; BACKGROUND-COLOR: white }
+	.PagerInfoCell { FONT-WEIGHT: bolder; FONT-SIZE: 10pt; COLOR: white; FONT-FAMILY: verdana, Tahoma, Arial; BACKGROUND-COLOR: #3399cc; FONT-VARIANT: small-caps }
+	.PagerInfoCell:link { COLOR: #ffcc66; TEXT-DECORATION: none }
+	.PagerInfoCell:visited { COLOR: #ffcc66; TEXT-DECORATION: none }
+	.PagerCurrentPageCell { COLOR: #ffffff; BACKGROUND-COLOR: #555555 }
+	.PagerOtherPageCells { COLOR: #ffffff; BACKGROUND-COLOR: #076da1 }
+	.PagerSSCCells { BACKGROUND-COLOR: #444444 }
+	.PagerHyperlinkStyle { FONT: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif }
+	.PagerHyperlinkStyle:hover { FONT: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif; COLOR: #ffcc66; TEXT-DECORATION: none }
+	.PagerHyperlinkStyle:link { FONT: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif; COLOR: #ffcc66; TEXT-DECORATION: none }
+	.PagerHyperlinkStyle:visited { FONT: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif; COLOR: #ffcc66; TEXT-DECORATION: none }
+	.PagerHyperlinkStyle:active { FONT: 11px arial, verdana, geneva, lucida, 'lucida grande' , arial, helvetica, sans-serif; COLOR: #ffcc66; TEXT-DECORATION: none }
+</style>
+    
+</head>
+<body background="images/bg_page.gif">
+    <form id="form1" runat="server">
+	<table border="0" width= "100%" style="height: 560px">
+	<tr>
+        	<td align="center" colspan="2" style="height: 14%; padding-left:25px;background-image:url('../images/header.jpg');" valign="top";  bgcolor="#5678BB"; >
+                	Header
+		</td>
+	</tr>
+	<tr >
+		<td style="height: 4%" align="right" colspan="2" bgcolor="#AEC3E5">
+		<table border="0" width="100%">
+		    <tr>
+		        <td width="50%" align="left" valign="baseline">
+                <spc:spacerimage id="SpacerImage301" runat="server" height="10px" style="position: relative"
+                width="5px"></spc:spacerimage>&nbsp;
+                
+        		<asp:Label ID="lblCurUserName" runat="server" Font-Bold="True"></asp:Label>
+		        </td>
+		        
+		        <td width="50%" align="right">
+		        
+                <asp:HyperLink ID="hpHome" runat="server" NavigateUrl="~/index.aspx">Home</asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hpSignout" runat="server" NavigateUrl="~/Signout.aspx">Sign Out</asp:HyperLink>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <asp:HyperLink ID="hpChangePwd" runat="server" NavigateUrl="~/ChangePwd.aspx">Change Password</asp:HyperLink>
+                <spc:spacerimage id="SpacerImage1" runat="server" height="10px" style="position: relative"
+                width="5px"></spc:spacerimage>
+                <spc:spacerimage id="SpacerImage2" runat="server" height="10px" style="position: relative"
+                width="5px"></spc:spacerimage>
+                
+		        </td>
+		    </tr>
+		</table>
+		</td>
+	</tr>
+	<tr >
+		<td align="left" style="width:200px; height:80%" valign="top" bgcolor="#E3EAEB">
+           <asp:Menu ID="Menu1" Orientation="Vertical" Runat="Server" CssClass="MainMenuBar" 
+            DynamicHorizontalOffset="2" Font-Names="Tahoma" Font-Size="1.1em" 
+            ForeColor="White" StaticSubMenuIndent="10px" Width="100%" Font-Bold="True" > 
+              <StaticHoverStyle BackColor="#548FB7" Font-Bold="False" ForeColor="White"/>              
+              <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+              <DynamicHoverStyle BackColor="#548FB7" Font-Bold="False" ForeColor="White" />
+              <DynamicMenuStyle CssClass="SubMenuBar" />
+              <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+           </asp:Menu>
+        </td>
+		<td align="left" style="width: 85%; height: 80%" valign="top" bgcolor="#eeeeee"> 
+			<div>
+                <asp:contentplaceholder id="mainContent" runat="server">
+                </asp:contentplaceholder>
+            </div>
+		</td>   
+	</tr>
+	<tr>
+		<td align="right" colspan="2" style="height: 2%" valign="top" bgcolor="#AEC3E5">
+        <a href="http://www.nnkconsulting.com/"><% =ConfigurationManager.AppSettings["FooterMessage"]%></a>
+		</td>
+	</tr>
+	</table>
+	</form>
+</body>
+</html>

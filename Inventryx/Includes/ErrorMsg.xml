@@ -1,0 +1,10 @@
+<NewDataSet>
+  <Error>
+    <ID>01</ID>
+    <Message>Sorry invalid request</Message>
+  </Error>
+  <Error>
+    <ID>02</ID>
+    <Message>Sorry you do not have permission to view this page</Message>
+  </Error>
+</NewDataSet>

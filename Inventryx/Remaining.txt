@@ -1,0 +1,9 @@
+2) purchaseorder close due
+3) stock adjustment & table also
+4) stock in detail table will have 2 new fields called grnno and grndate 
+this field will be updated when there will be insert statement run against stockindetail table
+form called - GRN,salereturn,stocktranser,stockadjustment
+
+5) change service item master include servicetype filed
+6) productopeningstock
+7) closing stock

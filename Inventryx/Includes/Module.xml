@@ -1,0 +1,160 @@
+<NewDataSet>
+  <!-- Tridip Start -->
+  <Module>
+    <ModuleID>0102</ModuleID>
+    <ViewPageName>StockPointView.aspx</ViewPageName>
+    <ListPageName>StockPoint.aspx</ListPageName>
+    <UpsertPageName>StockPointMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+  
+  <Module>
+    <ModuleID>0302</ModuleID>
+    <ViewPageName>PurchaseOrderView.aspx</ViewPageName>
+    <ListPageName>PurchaseOrder.aspx</ListPageName>
+    <UpsertPageName>PurchaseOrderMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>9006</ModuleID>
+    <ViewPageName>BranchView.aspx</ViewPageName>
+    <ListPageName>Branch.aspx</ListPageName>
+    <UpsertPageName>BranchAdmin.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>9005</ModuleID>
+    <ViewPageName>CompanyView.aspx</ViewPageName>
+    <ListPageName>Company.aspx</ListPageName>
+    <UpsertPageName>CompanyAdmin.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0123</ModuleID>
+    <ViewPageName>CustomerView.aspx</ViewPageName>
+    <ListPageName>Customer.aspx</ListPageName>
+    <UpsertPageName>CustomerMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0101</ModuleID>
+    <ViewPageName>DepartmentView.aspx</ViewPageName>
+    <ListPageName>Department.aspx</ListPageName>
+    <UpsertPageName>DepartmentMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>9007</ModuleID>
+    <ViewPageName>FinYearView.aspx</ViewPageName>
+    <ListPageName>FinYearList.aspx</ListPageName>
+    <UpsertPageName>FinYearMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0132</ModuleID>
+    <ViewPageName>LabourCategoryView.aspx</ViewPageName>
+    <ListPageName>LabourCategory.aspx</ListPageName>
+    <UpsertPageName>LabourCategoryMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0112</ModuleID>
+    <ViewPageName>ProductView.aspx</ViewPageName>
+    <ListPageName>Product.aspx</ListPageName>
+    <UpsertPageName>ProductMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0111</ModuleID>
+    <ViewPageName>ProductGroupView.aspx</ViewPageName>
+    <ListPageName>ProductGroup.aspx</ListPageName>
+    <UpsertPageName>ProductGroupMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0114</ModuleID>
+    <ViewPageName>ProductRateView.aspx</ViewPageName>
+    <ListPageName>ProductRate.aspx</ListPageName>
+    <UpsertPageName>ProductRateMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0131</ModuleID>
+    <ViewPageName>ServiceItemView.aspx</ViewPageName>
+    <ListPageName>ServiceItem.aspx</ListPageName>
+    <UpsertPageName>ServiceItemMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0121</ModuleID>
+    <ViewPageName>SupplierView.aspx</ViewPageName>
+    <ListPageName>Supplier.aspx</ListPageName>
+    <UpsertPageName>SupplierMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0122</ModuleID>
+    <ViewPageName>SupplierRateView.aspx</ViewPageName>
+    <ListPageName>SupplierRate.aspx</ListPageName>
+    <UpsertPageName>SupplierRateMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>9002</ModuleID>
+    <ViewPageName>UserMasterView.aspx</ViewPageName>
+    <ListPageName>UserList.aspx</ListPageName>
+    <UpsertPageName>UserMaster.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+  
+  <Module>
+    <ModuleID>0303</ModuleID>
+    <ViewPageName>GoodsReceiptNoteView.aspx</ViewPageName>
+    <ListPageName>GoodsReceiptNoList.aspx</ListPageName>
+    <UpsertPageName>GoodsReceiptNoMaster.aspx</UpsertPageName>
+    <CancelPageName>GoodsReceiptNoCancel.aspx</CancelPageName>
+    <Secure>YES</Secure>
+  </Module>
+  <!-- Tridip End -->
+  
+  
+  <!--Indra Start-->
+
+  <Module>
+    <ModuleID>0401</ModuleID>
+    <ViewPageName>ProformaInvoiceView.aspx</ViewPageName>
+    <ListPageName>ProformaInvoice.aspx</ListPageName>
+    <UpsertPageName>ProformaInvoiceTransaction.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+  <Module>
+    <ModuleID>0305</ModuleID>
+    <ViewPageName>PurchaseInvoiceView.aspx</ViewPageName>
+    <ListPageName>PurchaseInvoice.aspx</ListPageName>
+    <UpsertPageName>PurchaseInvoiceTrn.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <Module>
+    <ModuleID>0501</ModuleID>
+    <ViewPageName>JobDetailsView.aspx</ViewPageName>
+    <ListPageName>JobDetails.aspx</ListPageName>
+    <UpsertPageName>JobDetailsTrn.aspx</UpsertPageName>
+    <Secure>YES</Secure>
+  </Module>
+
+  <!--Indra End-->
+</NewDataSet>
